@@ -18,7 +18,7 @@ describe("test validator form", () => {
       });
     });
     browser = await puppetteer.launch({
-      headless: false, // show gui
+      headless: true, // show gui
       slowMo: 100,
       args: ["--no-sandbox"],
       // devtools: true, // show devTools
